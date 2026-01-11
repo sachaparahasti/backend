@@ -103,7 +103,6 @@ app.put(`${ROUTE}/:id`, (req, res) => {
     }
   );
 });
-// hello
 
 // START SERVER (Render-safe)
 const PORT = process.env.PORT || 5000;
